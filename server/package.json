@@ -1,0 +1,13 @@
+{
+  "name": "darshan-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "node --check server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.1",
+    "express": "^4.19.2"
+  }
+}
